@@ -159,6 +159,11 @@ Here is the course summary as given on the course [link](https://www.coursera.or
 
 - In computer vision f is usually odd. Some of the reasons is that its have a center value.
 
+python code: X is the i/p (4, 3, 3, 2) 
+
+`X_pad = np.pad(X,((0,0),(pad,pad),(pad,pad),(0,0)),'constant')      #pad-> length of padding`
+
+
 ### Strided convolution
 
 - Strided convolution is another piece that are used in CNNs.
